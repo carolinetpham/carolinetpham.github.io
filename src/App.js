@@ -1,6 +1,6 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from './components/Navbar';
+import NavigationBar from './components/NavigationBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -10,7 +10,7 @@ import Experience from './pages/Experience';
 function App() {
   return (
     <div id="App">
-      <Navbar />
+      <NavigationBar />
       <Home />
       <About />
       <Skills />

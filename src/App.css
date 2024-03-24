@@ -1,13 +1,19 @@
-body {
-  background-color: #DBD2FF;
-}
-
+/*Navigation Bar*/
 .navbar {
   background-color: #73478E;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .nav-item {
   display: flex;
+}
+
+.nav-link {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 24px;
 }
 
 
