@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Projects() {
     return (
-        <div>
+        <div id="projects">
             <h1>Projects</h1>
             <h5>Personal Portfolio</h5>
             <p>Designed and developed a personal portfolio website using React and Bootstrap</p>
