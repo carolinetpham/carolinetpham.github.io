@@ -7,10 +7,10 @@ body {
 /*Navigation Bar*/
 .navbar-brand {
   font-family: Josefin Sans;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 30px !important;
+  font-weight: bold !important;
   font-style: italic;
-  color: white;
+  color: white !important;
 }
 
 .navbar-style {
@@ -21,21 +21,21 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color: white !important;
   font-family: Josefin Sans;
   font-size: 20px;
 }
-
 
 /* Home Style */
 #home {
   padding-top: 60px;
   background-color: #DBD2FF;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 20px solid #39184D;
 }
 
 #home-intro img {
@@ -57,3 +57,88 @@ body {
 }
 
 /* About Style */
+#about {
+  padding: 80px;
+  background-color: #DBD2FF;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 20px solid #39184D;
+}
+
+.about-title {
+  font-family: Josefin Sans;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-container {
+  display: flex;
+  padding: 5pw
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 25%;
+  border: 4px solid white;
+}
+
+.introduction-container {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 70%;
+  align-items: center;
+  background-color: #73478E;
+  border-radius: 10px;
+}
+
+.button-style {
+  color: white;
+  font-family: Josefin Sans;
+  font-size: 24px;
+  position: absolute;
+  background-color: #39184D;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    width: 130vw;
+  }
+
+  .introduction-container {
+    max-width: 200vw;
+    max-height: 40vh;
+    overflow: auto;
+    background-color: #73478E;
+    border-radius: 10px;
+  }
+}
