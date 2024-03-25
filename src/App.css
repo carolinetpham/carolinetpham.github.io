@@ -163,8 +163,85 @@ body {
   padding: 80px;
   background-color: #DBD2FF;
   width: 100%;
-  height: 110vh;
+  height: 80vh;
   justify-content: center;
   align-items: center;
   border-bottom: 20px solid #39184D;
+}
+
+.skills-title {
+  font-family: Josefin Sans;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.languages {
+  background-color: #73478E;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.languages-header {
+  font-family: Josefin Sans;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.languages-desc {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+}
+
+.tools {
+  background-color: #543368;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.tools-header {
+  font-family: Josefin Sans;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tools-desc {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+}
+
+.lib-fw {
+  background-color: #39184D;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.lib-fw-header {
+  font-family: Josefin Sans;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.lib-fw-desc {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  text-align: left;
 }
