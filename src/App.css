@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 body {
   padding-top: 60px;
 }
 
 /*Navigation Bar*/
+.navbar-brand {
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
 .navbar-style {
   background-color: #73478E;
   position: fixed;
@@ -13,7 +23,7 @@ body {
 .nav-link {
   color: white;
   font-family: Josefin Sans;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -26,23 +36,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 10%;
-}
-
-h1 {
-  font-family: Arial;
-  font-style: normal;
-  font-size: 96px;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: Arial;
-  font-style: normal;
-  font-size: 48px;
-  color: #555555;
 }
 
 #home-intro img {
-  margin-right: 10px;
+  padding: 5px;
 }
+
+.name {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.major {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-size: 40px;
+  color: #555555;
+}
+
+/* About Style */
