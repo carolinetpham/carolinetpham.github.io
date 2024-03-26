@@ -15,9 +15,10 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Experience />
     </div>
   );
 }
 
 export default App;
+
+// <Experience />

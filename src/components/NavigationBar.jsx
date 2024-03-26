@@ -19,7 +19,6 @@ export default function NavigationBar() {
                         <Nav.Link href='#about' className='navigation-link'>About</Nav.Link>
                         <Nav.Link href='#skills' className='navigation-link'>Skills</Nav.Link>
                         <Nav.Link href='#projects' className='navigation-link'>Projects</Nav.Link>
-                        <Nav.Link href='#experience' className='navigation-link'>Experience</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -27,3 +26,4 @@ export default function NavigationBar() {
     )
 };
 
+// <Nav.Link href='#experience' className='navigation-link'>Experience</Nav.Link>
