@@ -248,6 +248,117 @@ body {
 
 @media (max-width: 700px) {
   #skills {
-    height: 100%
+    height: 100%;
+  }
+}
+
+/* Projects Style */
+#projects {
+  padding: 80px;
+  background-color: #DBD2FF;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 20px solid #39184D;
+}
+
+.projects-title {
+  font-family: Josefin Sans;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.personal-portfolio {
+  background-color: #73478E;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.personal-port-title {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pers-port-img {
+  width: 20%;
+  border: 4px solid white;
+  align-items: center;
+}
+
+.personal-port-desc {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+.figma-link {
+  color: #DBD2FF;
+}
+
+.figma-link:hover {
+  color: #39184D;
+}
+
+.virtual-bullet-journal {
+  background-color: #543368;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.vbj-title {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.vbj-desc {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  max-width: 80%;
+}
+
+.homework-task-tracker {
+  background-color: #39184D;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hwt-title {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.hwt-desc {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: white;
+  max-width: 80%;
+}
+
+@media (max-width: 700px) {
+  #projects {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
   }
 }
