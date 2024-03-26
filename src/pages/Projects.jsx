@@ -1,6 +1,5 @@
 // src/pages/Projects.jsx
 import React from 'react';
-import Image from 'react-bootstrap/Image';
 
 export default function Projects() {
     return (
