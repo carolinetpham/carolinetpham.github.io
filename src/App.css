@@ -93,7 +93,11 @@ body {
 
 .about-container {
   display: flex;
-  padding: 5pw
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .image-container {
@@ -103,13 +107,16 @@ body {
 }
 
 .profile-picture {
-  width: 25%;
+  width: 30%;
   border: 4px solid white;
 }
 
 .introduction-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .introduction {
