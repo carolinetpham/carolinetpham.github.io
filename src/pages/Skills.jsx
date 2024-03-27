@@ -17,7 +17,7 @@ export default function Skills() {
             </div>
             <div className='lib-fw'>
                 <h1 className='lib-fw-header'>Libraries & Frameworks:</h1>
-                <p className='lib-fw-desc'>React, Bootstrap, JavaFX</p>
+                <p className='lib-fw-desc'>React, Bootstrap, JUnit, JavaFX</p>
             </div>
         </div>
     )

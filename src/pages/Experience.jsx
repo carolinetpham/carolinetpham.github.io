@@ -1,9 +1,18 @@
 // src/pages/Experience.jsx
 import React from 'react';
+import Timeline from '../components/Timeline';
+
 
 export default function Experience() {
     return (
         <div id='experience'>
+            <Timeline />
+        </div>
+    )
+}
+
+/*
+<div id='experience'>
             <h1>Experience</h1>
             <h2>Verisk</h2>
             <h3>Software Support Co-op</h3>
@@ -15,5 +24,4 @@ export default function Experience() {
             <h3>Barista</h3>
             <p>insert desc. here</p>
         </div>
-    )
-}
+*/
