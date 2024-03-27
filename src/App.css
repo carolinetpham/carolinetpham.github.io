@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
   padding-top: 60px;
@@ -6,7 +7,7 @@ body {
 
 /*Navigation Bar*/
 .navbar-brand {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 30px !important;
   font-weight: bold !important;
   font-style: italic;
@@ -32,7 +33,7 @@ body {
 
 .nav-link {
   color: white !important;
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 20px;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .name {
-  font-family: Josefin Sans;
+  font-family: Andika;
   color: black;
   font-style: normal;
   font-weight: bold;
@@ -65,7 +66,7 @@ body {
 }
 
 .major {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-style: normal;
   font-size: 40px;
   color: #555555;
@@ -84,7 +85,7 @@ body {
 }
 
 .about-title {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 48px;
   color: black;
   text-align: center;
@@ -119,7 +120,7 @@ body {
 }
 
 .introduction {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   display: flex;
@@ -135,7 +136,7 @@ body {
 
 .button-style {
   color: white;
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   position: absolute;
   background-color: #39184D;
@@ -151,7 +152,7 @@ body {
 }
 
 .introduction {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   display: flex;
@@ -167,7 +168,7 @@ body {
 
 .button-style {
   color: white;
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   position: absolute;
   background-color: #39184D;
@@ -215,7 +216,7 @@ body {
 }
 
 .skills-title {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 48px;
   color: black;
   text-align: center;
@@ -230,7 +231,7 @@ body {
 }
 
 .languages-header {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-weight: bold;
   font-size: 36px;
   color: white;
@@ -239,7 +240,7 @@ body {
 }
 
 .languages-desc {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   text-align: left;
@@ -253,7 +254,7 @@ body {
 }
 
 .tools-header {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-weight: bold;
   font-size: 36px;
   color: white;
@@ -262,7 +263,7 @@ body {
 }
 
 .tools-desc {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   text-align: left;
@@ -276,7 +277,7 @@ body {
 }
 
 .lib-fw-header {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-weight: bold;
   font-size: 36px;
   color: white;
@@ -285,7 +286,7 @@ body {
 }
 
 .lib-fw-desc {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   text-align: left;
@@ -309,7 +310,7 @@ body {
 }
 
 .projects-title {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 48px;
   color: black;
   text-align: center;
@@ -323,7 +324,7 @@ body {
 }
 
 .personal-port-title {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 36px;
   color: white;
   text-align: left;
@@ -338,7 +339,7 @@ body {
 }
 
 .personal-port-desc {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   text-align: left;
@@ -362,7 +363,7 @@ body {
 }
 
 .vbj-title {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 36px;
   color: white;
   text-align: left;
@@ -371,7 +372,7 @@ body {
 }
 
 .vbj-desc {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   max-width: 80%;
@@ -385,7 +386,7 @@ body {
 }
 
 .hwt-title {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 36px;
   color: white;
   text-align: left;
@@ -394,7 +395,7 @@ body {
 }
 
 .hwt-desc {
-  font-family: Josefin Sans;
+  font-family: Andika;
   font-size: 24px;
   color: white;
   max-width: 80%;
@@ -421,7 +422,7 @@ body {
 /* Experience Style */
 #experience {
   background-color: #DBD2FF;
-  font-family: Josefin Sans;
+  font-family: Andika;
   border-bottom: 20px solid #39184D;
 }
 
