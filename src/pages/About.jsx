@@ -1,5 +1,5 @@
 // src/pages/About.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 
 export default function About() {

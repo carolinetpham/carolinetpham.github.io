@@ -183,11 +183,17 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .image-container {
-    width: 100vw;
+  #about {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
   }
 
-  .introduction-container {
+  .image-container {
+    width: 100vh;
+  }
+
+  .introduction {
     width: 100vw;
     max-width: 100%;
     max-height: 40vh;
