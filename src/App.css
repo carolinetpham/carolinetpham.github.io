@@ -73,14 +73,10 @@ body {
 }
 
 /* About Style */
+
 #about {
-  padding: 80px;
   background-color: #DBD2FF;
-  width: 100%;
-  min-height: 110vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 80px;
   border-bottom: 20px solid #39184D;
 }
 
@@ -94,16 +90,9 @@ body {
 
 .about-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .profile-picture {
@@ -111,77 +100,33 @@ body {
   border: 4px solid white;
 }
 
-.introduction-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .introduction {
   font-family: Andika;
-  font-size: 24px;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin-top: 20px;
-  max-width: 70%;
-  align-items: center;
   background-color: #73478E;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
   border-radius: 10px;
+}
+
+.intro-resume {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .button-style {
   color: white;
   font-family: Andika;
-  font-size: 24px;
-  position: absolute;
+  font-size: 30px;
   background-color: #39184D;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
 }
 
-.resume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
 
-.introduction {
-  font-family: Andika;
-  font-size: 24px;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin-top: 20px;
-  max-width: 70%;
-  align-items: left;
-  background-color: #73478E;
-  border-radius: 10px;
-}
-
-.button-style {
-  color: white;
-  font-family: Andika;
-  font-size: 24px;
-  position: absolute;
-  background-color: #39184D;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.resume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
 
 @media (max-width: 1024px) {
   #about {
@@ -190,17 +135,30 @@ body {
     overflow: auto;
   }
 
-  .image-container {
-    width: 100vh;
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .introduction {
-    width: 100vw;
+    width: 90vw;
     max-width: 100%;
     max-height: 40vh;
     overflow: auto;
-    background-color: #73478E;
-    border-radius: 10px;
+  }
+
+  .profile-picture {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .intro-resume {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
