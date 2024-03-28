@@ -1,3 +1,4 @@
+// src/components/SocialMediaIcons.jsx
 import React from 'react';
 
 export default function SocialMediaIcons() {
