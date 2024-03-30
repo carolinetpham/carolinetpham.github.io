@@ -8,7 +8,7 @@ export default function Projects() {
                 <h1>Projects</h1>
             </div>
             <div className='personal-portfolio'>
-                <h1 className='personal-port-title'>Personal Portfolio</h1>
+                <h1 className='personal-port-title'>Personal Portfolio - React, Bootstrap</h1>
                 <p className='personal-port-desc'>Designed and developed a personal portfolio website using React and Bootstrap.
                     Through self-teaching, I was able to become proficient in React and Bootstrap allowing me to develop this website!
                     Check out my original Figma design <a href=
@@ -17,7 +17,7 @@ export default function Projects() {
                         here!</a> I will be continuing to update this website as I learn more!</p>
             </div>
             <div className='virtual-bullet-journal'>
-                <h1 className='vbj-title'>Virtual Bullet Journal</h1>
+                <h1 className='vbj-title'>Virtual Bullet Journal - Java, JavaFX</h1>
                 <p className='vbj-desc'>Collaborating alongside two classmates, we developed a virtual bullet journal in order to manage tasks throughout
                     the week with Java and JavaFX. I designed the entire GUI in order to have a visually appealing interface. Check out the repository <a href=
                         'https://github.com/carolinetpham/bullet-journal-planner'
