@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { BsArrowUpCircle } from 'react-icons/bs';
 
 export default function Contact() {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -60,6 +61,11 @@ export default function Contact() {
                     </button>
                     {stateMessage && <p>{stateMessage}</p>}
                 </form>
+            </div>
+            <div className='scroll-to-top'>
+                <a href='#home'>
+                    <BsArrowUpCircle />
+                </a>
             </div>
         </div>
     );
