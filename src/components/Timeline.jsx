@@ -58,7 +58,7 @@ export default function Timeline() {
                     {timelineItems.map((item, index) => (
                         <VerticalTimelineElement
                             key={index}
-                            date={<div className='mx-4' style={{ color: 'black' }}>{item.date}</div>}
+                            date={<div className='date mx-4'>{item.date}</div>}
                             contentStyle={{ borderRadius: '15px', background: color[index % 3], color: 'white' }}
                             contentArrowStyle={{ borderRight: `7px solid ${color[index % 3]}` }}
                             iconStyle={{ background: color[index % 3], color: '#000' }}
