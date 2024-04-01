@@ -293,8 +293,12 @@ body {
 }
 
 @media (max-width: 1024px) {
+
+  body,
   #skills {
-    width: 100vw;
+    background-color: #DBD2FF;
+    margin: 0;
+    padding: 5px;
   }
 
   .languages {
@@ -470,8 +474,13 @@ body {
 @media (max-width: 1024px) {
   #projects {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     overflow: auto;
+    padding: 20px;
+  }
+
+  .projects-title {
+    margin-bottom: 20px;
   }
 
   .personal-portfolio,
