@@ -565,3 +565,22 @@ button {
   padding: 5px;
   border-radius: 10px;
 }
+
+@media (max-width: 1024px) {
+
+  .name-email label,
+  .sub-msg label {
+    display: block;
+    text-align: left;
+  }
+
+  .name-email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-msg {
+    display: flex;
+    flex-direction: column;
+  }
+}
