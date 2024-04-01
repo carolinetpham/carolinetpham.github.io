@@ -496,3 +496,72 @@ body {
   text-align: center;
   padding-top: 60px;
 }
+
+/* Contact Style */
+#contact {
+  padding: 80px;
+  background-color: #DBD2FF;
+  width: 100%;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  font-family: Andika;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-email {
+  margin-top: 20px;
+  font-family: Andika;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name-email label {
+  padding-right: 10px;
+}
+
+.name-email input {
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.sub-msg {
+  margin-top: 50px;
+  font-family: Andika;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.sub-msg input,
+.sub-msg textarea {
+  border-radius: 10px;
+}
+
+button {
+  font-family: Andika;
+  margin-top: 20px;
+  background-color: #543368;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
