@@ -294,17 +294,19 @@ body {
 
 @media (max-width: 1024px) {
 
-  body,
   #skills {
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 0px);
+    max-width: 100%;
     overflow: auto;
+    margin: 0;
+    padding: 10px;
   }
 
 
   .languages {
     overflow-x: auto;
     white-space: nowrap;
+    padding: 0;
   }
 
   .java-logo,
