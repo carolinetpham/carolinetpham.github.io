@@ -62,10 +62,12 @@ export default function Contact() {
                     {stateMessage && <p>{stateMessage}</p>}
                 </form>
             </div>
-            <div className='scroll-to-top'>
-                <a href='#home'>
-                    <BsArrowUpCircle />
-                </a>
+            <div className='scroll-container'>
+                <div className='scroll-to-top'>
+                    <a href='#home'>
+                        <BsArrowUpCircle />
+                    </a>
+                </div>
             </div>
         </div>
     );

@@ -582,8 +582,11 @@ button:hover {
   background-color: #39184D;
 }
 
-.scroll-to-top {
+.scroll-container {
   padding-top: 100px;
+}
+
+.scroll-to-top {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -594,6 +597,19 @@ button:hover {
   width: 40px;
   height: 40px;
   color: #39184D;
+}
+
+.scroll-to-top:hover::after {
+  content: "Back to top";
+  font-family: Andika;
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #543368;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 @media (max-width: 1024px) {
