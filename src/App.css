@@ -180,9 +180,7 @@ body {
   font-weight: bold;
 }
 
-.languages-title,
-.tools-title,
-.lib-fw-title {
+.category-title {
   font-family: Andika;
   font-size: 30px;
   color: black;
@@ -190,13 +188,34 @@ body {
   margin-bottom: 0;
 }
 
-.languages {
+.category {
   display: flex;
   justify-content: space-around;
-  background-color: #73478E;
   padding: 10px;
   border-radius: 10px;
   margin-top: 5px;
+}
+
+.languages {
+  background-color: #73478E;
+}
+
+.tools {
+  background-color: #543368;
+}
+
+.libraries-and-frameworks {
+  background-color: #39184D;
+}
+
+.languages-title,
+.tools-title,
+.libraries-and-frameworks-title {
+  font-family: Andika;
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .logo-container {
@@ -215,85 +234,17 @@ body {
   width: 100%;
 }
 
-.java-logo,
-.javascript-logo,
-.html-logo,
-.css-logo {
-  height: 80px;
-  width: auto;
-
-}
-
-.java-logo:hover,
-.javascript-logo:hover,
-.html-logo:hover,
-.css-logo:hover {
-  transform: scale(1.3);
-  transition: transform 0.3s ease-in-out;
-}
-
-.tools {
-  display: flex;
-  justify-content: space-between;
-  background-color: #543368;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 5px;
-}
-
-.figma-logo,
-.gradle-logo,
-.git-logo,
-.github-logo,
-.vs-code-logo,
-.eclipse-logo,
-.intellij-logo,
-.photoshop-logo,
-.illustrator-logo {
+.logo {
   height: 80px;
   width: auto;
 }
 
-.figma-logo:hover,
-.gradle-logo:hover,
-.git-logo:hover,
-.github-logo:hover,
-.vs-code-logo:hover,
-.eclipse-logo:hover,
-.intellij-logo:hover,
-.photoshop-logo:hover,
-.illustrator-logo:hover {
-  transform: scale(1.3);
-  transition: transform 0.3s ease-in-out;
-}
-
-.lib-fw {
-  display: flex;
-  background-color: #39184D;
-  justify-content: space-around;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 5px;
-}
-
-.react-logo,
-.bootstrap-logo,
-.junit-logo,
-.javafx-logo {
-  height: 80px;
-  width: auto;
-}
-
-.react-logo:hover,
-.bootstrap-logo:hover,
-.junit-logo:hover,
-.javafx-logo:hover {
+.logo:hover {
   transform: scale(1.3);
   transition: transform 0.3s ease-in-out;
 }
 
 @media (max-width: 1024px) {
-
   #skills {
     width: calc(100% - 0px);
     max-width: 100%;
@@ -302,17 +253,13 @@ body {
     padding: 10px;
   }
 
-
-  .languages {
+  .category {
     overflow-x: auto;
     white-space: nowrap;
     padding: 0;
   }
 
-  .java-logo,
-  .javascript-logo,
-  .html-logo,
-  .css-logo {
+  .logo {
     width: auto;
     height: 50px;
     margin-right: 10px;
@@ -321,40 +268,6 @@ body {
   .logo-container p {
     font-size: 14px;
     text-align: center;
-  }
-
-  .tools {
-    overflow-x: auto;
-    white-space: nowrap;
-    text-align: center;
-  }
-
-  .figma-logo,
-  .gradle-logo,
-  .git-logo,
-  .github-logo,
-  .vs-code-logo,
-  .eclipse-logo,
-  .intellij-logo,
-  .photoshop-logo,
-  .illustrator-logo {
-    width: auto;
-    height: 50px;
-    margin-right: 10px;
-  }
-
-  .lib-fw {
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-
-  .react-logo,
-  .bootstrap-logo,
-  .junit-logo,
-  .javafx-logo {
-    width: auto;
-    height: 50px;
-    margin-right: 10px;
   }
 }
 

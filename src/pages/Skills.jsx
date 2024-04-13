@@ -2,89 +2,62 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
 export default function Skills() {
+    const skills = [{
+        category: 'Languages',
+        items: [
+            { logo: '/pictures/java-logo.png', alt: 'Java Logo', name: 'Java' },
+            { logo: '/pictures/javascript-logo.png', alt: 'JavaScript Logo', name: 'JavaScript' },
+            { logo: '/pictures/html-logo.png', alt: 'HTML Logo', name: 'HTML' },
+            { logo: '/pictures/css-logo.png', alt: 'CSS Logo', name: 'CSS' }
+        ]
+    },
+    {
+        category: 'Tools',
+        items: [
+            { logo: '/pictures/figma-logo.png', alt: 'Figma Logo', name: 'Figma' },
+            { logo: '/pictures/gradle-logo.png', alt: 'Gradle Logo', name: 'Gradle' },
+            { logo: '/pictures/git-logo.png', alt: 'Git Logo', name: 'Git' },
+            { logo: '/pictures/github-logo.png', alt: 'GitHub Logo', name: 'GitHub' },
+            { logo: '/pictures/vs-code-logo.png', alt: 'VS Code Logo', name: 'VS Code' },
+            { logo: '/pictures/eclipse-logo.png', alt: 'Eclipse Logo', name: 'Eclipse' },
+            { logo: '/pictures/intellij-logo.png', alt: 'IntelliJ Logo', name: 'IntelliJ' },
+            { logo: '/pictures/photoshop-logo.png', alt: 'Photoshop Logo', name: 'Photoshop' },
+            { logo: '/pictures/illustrator-logo.png', alt: 'Illustrator Logo', name: 'Illustrator' }
+        ]
+    },
+    {
+        category: 'Libraries and Frameworks',
+        items: [
+            { logo: '/pictures/react-logo.png', alt: 'React Logo', name: 'React' },
+            { logo: '/pictures/bootstrap-logo.png', alt: 'Bootstrap Logo', name: 'Bootstrap' },
+            { logo: '/pictures/junit5-logo.png', alt: 'JUnit Logo', name: 'JUnit' },
+            { logo: '/pictures/javafx-logo.png', alt: 'JavaFX Logo', name: 'JavaFX' }
+        ]
+    }];
+
+    const SkillItem = ({ item }) => (
+        <div className="logo-container">
+            <Image src={item.logo} alt={`${item.name} Logo`} className="logo" />
+            <p>{item.name}</p>
+        </div>
+    );
+
     return (
         <div id='skills'>
             <div className='skills-title'>
                 <h1>Technical Skills</h1>
             </div>
             <div className='skills-description'>
-                <h1 className='languages-title'>Languages: </h1>
-                <div className='languages'>
-                    <div className="logo-container">
-                        <Image src={'/pictures/java-logo.png'} alt='Java Logo' className='java-logo' />
-                        <p>Java</p>
+                {skills.map((skill, index) => (
+                    <div key={index}>
+                        <h1 className={`${skill.category.toLowerCase().replace(/ /g, '-')}-title`}>{skill.category}:</h1>
+                        <div className={`category ${skill.category.toLowerCase().replace(/ /g, '-')}`}>
+                            {skill.items.map((item, index) => (
+                                <SkillItem key={index} item={item} />
+                            ))}
+                        </div>
                     </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/javascript-logo.png'} alt='JavaScript Logo' className='javascript-logo' />
-                        <p>JavaScript</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/html-logo.png'} alt='HTML Logo' className='html-logo' />
-                        <p>HTML</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/css-logo.png'} alt='CSS Logo' className='css-logo' />
-                        <p>CSS</p>
-                    </div>
-                </div>
-                <h1 className='tools-title'>Tools: </h1>
-                <div className='tools'>
-                    <div className="logo-container">
-                        <Image src={'/pictures/figma-logo.png'} alt='Figma Logo' className='figma-logo' />
-                        <p>Figma</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/gradle-logo.png'} alt='Gradle Logo' className='gradle-logo' />
-                        <p>Gradle</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/git-logo.png'} alt='Git Logo' className='git-logo' />
-                        <p>Git</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/github-logo.png'} alt='GitHub Logo' className='github-logo' />
-                        <p>GitHub</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/vs-code-logo.png'} alt='VS Code Logo' className='vs-code-logo' />
-                        <p>VS Code</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/eclipse-logo.png'} alt='Eclipse Logo' className='eclipse-logo' />
-                        <p>Eclipse</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/intellij-logo.png'} alt='IntelliJ Logo' className='intellij-logo' />
-                        <p>IntelliJ</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/photoshop-logo.png'} alt='Photoshop Logo' className='photoshop-logo' />
-                        <p>Photoshop</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/illustrator-logo.png'} alt='Illustrator Logo' className='illustrator-logo' />
-                        <p>Illustrator</p>
-                    </div>
-                </div>
-                <h1 className='lib-fw-title'>Libraries & Frameworks: </h1>
-                <div className='lib-fw'>
-                    <div className="logo-container">
-                        <Image src={'/pictures/react-logo.png'} alt='React Logo' className='react-logo' />
-                        <p>React</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/bootstrap-logo.png'} alt='Bootstrap Logo' className='bootstrap-logo' />
-                        <p>Bootstrap</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/junit5-logo.png'} alt='JUnit Logo' className='junit-logo' />
-                        <p>JUnit</p>
-                    </div>
-                    <div className="logo-container">
-                        <Image src={'/pictures/javafx-logo.png'} alt='JavaFX Logo' className='javafx-logo' />
-                        <p>JavaFX</p>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     )
