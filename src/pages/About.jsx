@@ -21,7 +21,7 @@ export default function About() {
                         in blending my technical knowledge with a keen eye for
                         design, bringing a unique perspective to the world of
                         software development.</p>
-                    <a href='https://docs.google.com/document/d/1KQcPV-3xUob7V1ecPRx3_fE0-y8TJBG2hXmjcggUpUY/edit?usp=sharing'
+                    <a href='https://drive.google.com/file/d/1IMWgd_f33kkPbRp9aTOjjLk9GMUgmmtv/view?usp=sharing'
                         target='_blank' rel='noreferrer' class='button-style'>Resume</a>
                 </div>
             </div>
