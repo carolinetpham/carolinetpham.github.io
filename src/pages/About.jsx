@@ -11,7 +11,7 @@ export default function About() {
             <div className='about-container'>
                 <Image src={'/pictures/headshot.png'} alt='Caroline Pham Picture' className='profile-picture' />
                 <div className='intro-resume'>
-                    <p className='introduction'>I'm a rising third-year majoring in Computer Science and Design student at
+                    <p className='introduction'>I'm a rising third-year majoring in Computer Science and Design at
                         Northeastern University with a strong passion for front-end development and UI/UX design.
                         Currently, I'm focusing my studies on software development, and I've had the privilege of
                         honing my programming skills in Java through my coursework. Alongside my academic pursuits,
