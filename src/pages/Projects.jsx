@@ -7,6 +7,11 @@ export default function Projects() {
             <div className='projects-title'>
                 <h1>Projects</h1>
             </div>
+            <div className='homework-task-tracker'>
+                <h1 className='hwt-title'>AEye</h1>
+                <p className='hwt-desc'>Designed a game-like app to allow users to learn to decipher between real world applications and AI applications. Check out the Figma design <a href='https://www.figma.com/design/JHx83jOa8YN8Zv5R6Wq4lU/AEye?node-id=207-282' target='_blank' rel='noreferrer' className='figma-link'>
+                    here!</a></p>
+            </div>
             <div className='personal-portfolio'>
                 <h1 className='personal-port-title'>Personal Portfolio - React, Bootstrap</h1>
                 <p className='personal-port-desc'>Designed and developed a personal portfolio website using React and Bootstrap.
@@ -23,11 +28,6 @@ export default function Projects() {
                         'https://github.com/carolinetpham/bullet-journal-planner'
                         target='_blank' rel='noreferrer' className='figma-link'>
                         here!</a></p>
-            </div>
-            <div className='homework-task-tracker'>
-                <h1 className='hwt-title'>AEye</h1>
-                <p className='hwt-desc'>Designed a game-like app to allow users to learn to decipher between real world applications and AI applications. Check out the Figma design <a href='https://www.figma.com/design/JHx83jOa8YN8Zv5R6Wq4lU/AEye?node-id=207-282' target='_blank' rel='noreferrer' className='figma-link'>
-                    here!</a></p>
             </div>
         </div>
     )
