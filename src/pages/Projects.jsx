@@ -25,8 +25,8 @@ export default function Projects() {
                         here!</a></p>
             </div>
             <div className='homework-task-tracker'>
-                <h1 className='hwt-title'>Personal Task Tracker</h1>
-                <p className='hwt-desc'>Currently developing a task tracker app to efficiently manage tasks. Check out my Figma design <a href='https://www.figma.com/file/Oyqqmban8cX6LAMhAZrwp6/caroline-pham-task-track-app-design?type=design&node-id=0-1&mode=design' target='_blank' rel='noreferrer' className='figma-link'>
+                <h1 className='hwt-title'>AEye</h1>
+                <p className='hwt-desc'>Designed a game-like app to allow users to learn to decipher between real world applications and AI applications. Check out the Figma design <a href='https://www.figma.com/design/JHx83jOa8YN8Zv5R6Wq4lU/AEye?node-id=207-282' target='_blank' rel='noreferrer' className='figma-link'>
                     here!</a></p>
             </div>
         </div>
