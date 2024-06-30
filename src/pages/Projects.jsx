@@ -8,7 +8,7 @@ export default function Projects() {
                 <h1>Projects</h1>
             </div>
             <div className='homework-task-tracker'>
-                <h1 className='hwt-title'>AEye</h1>
+                <h1 className='hwt-title'>AEye - Figma</h1>
                 <p className='hwt-desc'>Designed a game-like app to allow users to learn to decipher between real world applications and AI applications. Check out the Figma design <a href='https://www.figma.com/design/JHx83jOa8YN8Zv5R6Wq4lU/AEye?node-id=207-282' target='_blank' rel='noreferrer' className='figma-link'>
                     here!</a></p>
             </div>

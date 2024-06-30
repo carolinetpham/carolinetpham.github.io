@@ -8,7 +8,7 @@ export default function Timeline() {
         {
             title: 'Verisk',
             subtitle: 'Software Support Analyst Co-op',
-            date: 'Jan 2024 - Present',
+            date: 'Jan 2024 - Jun 2024',
             description: ['Upgrade and install software for external clients and internal groups',
                 'Run analysis in order to validate software and assure software is up to quality standards',
                 'Collaborate with cross-functional teams to troubleshoot and debug software-related problems',
