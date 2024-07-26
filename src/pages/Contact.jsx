@@ -10,6 +10,7 @@ export default function Contact() {
         e.persist();
         e.preventDefault();
         setIsSubmitting(true);
+
         emailjs
             .sendForm(
                 process.env.REACT_APP_SERVICE_ID,
