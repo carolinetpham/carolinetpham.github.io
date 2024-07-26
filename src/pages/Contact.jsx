@@ -6,7 +6,6 @@ import { BsArrowUpCircle } from 'react-icons/bs';
 export default function Contact() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [stateMessage, setStateMessage] = useState(null);
-
     const sendEmail = (e) => {
         e.persist();
         e.preventDefault();
