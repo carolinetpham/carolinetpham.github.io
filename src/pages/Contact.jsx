@@ -6,11 +6,11 @@ import { BsArrowUpCircle } from 'react-icons/bs';
 export default function Contact() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [stateMessage, setStateMessage] = useState(null);
+
     const sendEmail = (e) => {
         e.persist();
         e.preventDefault();
         setIsSubmitting(true);
-
         emailjs
             .sendForm(
                 process.env.REACT_APP_SERVICE_ID,
@@ -38,6 +38,7 @@ export default function Contact() {
         // Clears form after sending email
         e.target.reset();
     };
+
     return (
         <div id='contact'>
             <div className='contact-title'>
