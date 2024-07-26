@@ -26,7 +26,7 @@ export default function Contact() {
                     }, 5000); // hide message after 5 seconds
                 },
                 (error) => {
-                    setStateMessage('Something seems to have gone wrong! Please try again.');
+                    setStateMessage('Something seems to have gone wrong! Please try again in a few minutes.');
                     setIsSubmitting(false);
                     setTimeout(() => {
                         setStateMessage(null);
