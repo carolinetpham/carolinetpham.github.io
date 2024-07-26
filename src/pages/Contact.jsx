@@ -12,10 +12,10 @@ export default function Contact() {
         setIsSubmitting(true);
         emailjs
             .sendForm(
-                process.env.REACT_APP_SERVICE_ID,
-                process.env.REACT_APP_TEMPLATE_ID,
+                process.env.REACT_APP_SERVICE_ID_2,
+                process.env.REACT_APP_TEMPLATE_ID_2,
                 e.target,
-                process.env.REACT_APP_PUBLIC_ID
+                process.env.REACT_APP_PUBLIC_ID_2
             )
             .then(
                 (result) => {
