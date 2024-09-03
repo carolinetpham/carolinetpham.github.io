@@ -8,13 +8,17 @@ export default function Skills() {
             { logo: '/pictures/java-logo.png', alt: 'Java Logo', name: 'Java' },
             { logo: '/pictures/javascript-logo.png', alt: 'JavaScript Logo', name: 'JavaScript' },
             { logo: '/pictures/html-logo.png', alt: 'HTML Logo', name: 'HTML' },
-            { logo: '/pictures/css-logo.png', alt: 'CSS Logo', name: 'CSS' }
+            { logo: '/pictures/css-logo.png', alt: 'CSS Logo', name: 'CSS' },
+            { logo: '/pictures/sql-logo.png', alt: 'SQL Logo', name: 'SQL' },
+            { logo: '/pictures/python-logo.png', alt: 'Python Logo', name: 'Python' },
         ]
     },
     {
         category: 'Tools',
         items: [
             { logo: '/pictures/figma-logo.png', alt: 'Figma Logo', name: 'Figma' },
+            { logo: '/pictures/jira-logo.png', alt: 'Jira Logo', name: 'Jira' },
+            { logo: '/pictures/docker-logo.png', alt: 'Docker Logo', name: 'Docker' },
             { logo: '/pictures/gradle-logo.png', alt: 'Gradle Logo', name: 'Gradle' },
             { logo: '/pictures/git-logo.png', alt: 'Git Logo', name: 'Git' },
             { logo: '/pictures/github-logo.png', alt: 'GitHub Logo', name: 'GitHub' },
@@ -30,6 +34,9 @@ export default function Skills() {
         items: [
             { logo: '/pictures/react-logo.png', alt: 'React Logo', name: 'React' },
             { logo: '/pictures/bootstrap-logo.png', alt: 'Bootstrap Logo', name: 'Bootstrap' },
+            { logo: '/pictures/mysql-logo.png', alt: 'MySQL Logo', name: 'MySQL' },
+            { logo: '/pictures/streamlit-logo.png', alt: 'Streamlit Logo', name: 'Streamlit' },
+            { logo: '/pictures/flask-logo.png', alt: 'Flask Logo', name: 'Flask' },
             { logo: '/pictures/junit5-logo.png', alt: 'JUnit Logo', name: 'JUnit' },
             { logo: '/pictures/javafx-logo.png', alt: 'JavaFX Logo', name: 'JavaFX' }
         ]
