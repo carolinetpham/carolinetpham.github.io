@@ -353,6 +353,12 @@ body {
   max-width: 80%;
 }
 
+.project-photo {
+  width: 40%;
+  opacity: 70%;
+  align-items: center;
+}
+
 .homework-task-tracker {
   background-color: #73478E;
   border-radius: 10px;

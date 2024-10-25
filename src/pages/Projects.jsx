@@ -8,9 +8,11 @@ export default function Projects() {
                 <h1>Projects</h1>
             </div>
             <div className='homework-task-tracker'>
+                <a href="https://www.figma.com/design/JHx83jOa8YN8Zv5R6Wq4lU/AEye?node-id=207-282&node-type=CANVAS" target="_blank" rel="noreferrer">
                 <h1 className='hwt-title'>AEye - Figma</h1>
-                <p className='hwt-desc'>Designed a game-like app to allow users to learn to decipher between real world applications and AI applications. Check out the Figma design <a href='https://www.figma.com/design/JHx83jOa8YN8Zv5R6Wq4lU/AEye?node-id=207-282' target='_blank' rel='noreferrer' className='figma-link'>
-                    here!</a></p>
+                    <img src="/pictures/aeye-project-photo.png" alt="AEye Project" className='project-photo' />
+                    </a>
+                <p className='hwt-desc'>Designed a game-like app to allow users to learn to decipher between real world applications and AI applications.</p>
             </div>
             <div className='personal-portfolio'>
                 <h1 className='personal-port-title'>Personal Portfolio - React, Bootstrap</h1>
