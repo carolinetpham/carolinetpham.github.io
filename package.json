@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
-  "homepage": "https://carolinetpham.github.io/",
   "version": "0.1.0",
+  "homepage": "https://carolinetpham.github.io/carolinetpham.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
