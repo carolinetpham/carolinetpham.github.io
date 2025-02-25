@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Modal, Button } from "antd";
 import NavigationBar from "./components/NavigationBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,21 +12,49 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  // Show the modal when the component mounts
+  useEffect(() => {
+    setIsModalVisible(true);
+  }, []);
+
+  const handleModalClose = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleVisitNewSite = () => {
+    window.open("https://carolinepham.dev/", "_blank", "noopener,noreferrer");
+    setIsModalVisible(false);
+  };
+
   return (
-    <HashRouter>
-      <div id="App">
-        <NavigationBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </div>
-    </HashRouter>
+    <div id="App">
+      <NavigationBar />
+      <Home />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+      <Modal
+        title="New Site Announcement"
+        open={isModalVisible}
+        onCancel={handleModalClose}
+        footer={[
+          <Button key="visit" type="primary" onClick={handleVisitNewSite}>
+            Visit New Site
+          </Button>,
+          <Button key="close" onClick={handleModalClose}>
+            Close
+          </Button>,
+        ]}
+      >
+        <p>This is my old portfolio site!</p>
+        <p>Click "Visit New Site" to check out my current one.</p>
+      </Modal>
+    </div>
   );
 }
 
